@@ -1,0 +1,32 @@
+.post-container {
+    max-width: 700px;
+    width: 100%;
+    background-color: rgb(230, 125, 211);
+    color: #fff;
+    margin-bottom: 25px;
+    padding: 20px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: rgb(158, 144, 238);
+    display: none;
+  }
+  .overlay.overlayActive {
+    display: block;
+  }
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(158, 55, 55);
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  
